@@ -1,0 +1,76 @@
+{
+    "courses": [
+        {
+            "id": 1,
+            "course_title": "Introduction to C Programming",
+            "cover_picture": "https://i.ibb.co/s1R69vb/Rectangle-2-2.png",
+            "description": "Learn the basics of C programming language, including variables, loops, functions, and memory management. Ideal for beginners in programming.",
+            "price": 59.99,
+            "credit": 4
+        },
+        {
+            "id": 2,
+            "course_title": "Introduction to Algorithms",
+            "cover_picture": "https://i.ibb.co/dM1TSCB/Rectangle-3.png",
+            "description": "Explore the fundamental algorithms and algorithmic techniques, focusing on analysis and application. Essential for understanding efficient problem-solving.",
+            "price": 69.99,
+            "credit": 5
+        },
+        {
+            "id": 3,
+            "course_title": "Introduction to C++ for DSA",
+            "cover_picture": "https://i.ibb.co/NxQwtvw/Rectangle-2-4.png",
+            "description": "Gain an understanding of C++ programming language with a focus on Data Structures and Algorithms (DSA). Covers classes, objects, and STL usage.",
+            "price": 79.99,
+            "credit": 6
+        },
+        {
+            "id": 4,
+            "course_title": "Basic Data Structures",
+            "cover_picture": "https://i.ibb.co/P5wySGr/Rectangle-2-3.png",
+            "description": "Learn about essential data structures such as arrays, linked lists, stacks, and queues. Understand their implementation and usage in various algorithms.",
+            "price": 49.99,
+            "credit": 4
+        },
+        {
+            "id": 5,
+            "course_title": "Introduction to OOP Python",
+            "cover_picture": "https://i.ibb.co/d7sRhD6/Rectangle-2.png",
+            "description": "Discover object-oriented programming (OOP) concepts using Python. Covers classes, inheritance, polymorphism, and more for efficient coding.",
+            "price": 64.99,
+            "credit": 3
+        },
+        {
+            "id": 6,
+            "course_title": "Software Engineering",
+            "cover_picture": "https://i.ibb.co/2Sr6DxV/Rectangle-2-5.png",
+            "description": "Delve into the principles and practices of software engineering, including requirements gathering, design patterns, testing, and project management.",
+            "price": 84.99,
+            "credit": 5
+        },
+        {
+            "id": 7,
+            "course_title": "AWS, Cloud Computing",
+            "cover_picture": "https://i.ibb.co/Gxjtbrv/Rectangle-3-1.png",
+            "description": "Learn the fundamentals of AWS (Amazon Web Services) and cloud computing. Covers services, deployment, and best practices for scalable applications.",
+            "price": 89.99,
+            "credit": 6
+        },
+        {
+            "id": 8,
+            "course_title": "Database (MySQL)",
+            "cover_picture": "https://i.ibb.co/Gcq0R9G/Rectangle-2-1.png",
+            "description": "Understand MySQL database management system, including database design, querying, and administration. Suitable for aspiring database administrators.",
+            "price": 59.99,
+            "credit": 4
+        },
+        {
+            "id": 9,
+            "course_title": "Problem-Solving Part",
+            "cover_picture": "https://i.ibb.co/SrC1BMd/Rectangle-2-6.png",
+            "description": "Develop problem-solving skills through algorithmic thinking and practice. Focuses on logical reasoning and effective strategies for coding challenges.",
+            "price": 54.99,
+            "credit": 3
+        }
+    ]
+}
