@@ -11,6 +11,12 @@ function App() {
 
   const [credit, setCredit] = useState(20);
 
+  const [totalPrice, setTotalPrice] = useState(0);
+
+  const handleTotalPrice = price => {
+    setTotalPrice(totalPrice + price);
+  }
+
   const handleCredit = newCredit => {
     setCredit(credit - newCredit);
   }
@@ -18,7 +24,8 @@ function App() {
   const handleSelect = course => {
     if (course.credit <= credit) {
       setSelectedCourses([...selectedCourses, course]);
-      handleCredit(course.credit)
+      handleCredit(course.credit);
+      handleTotalPrice(course.price);
     }
     else{
       toast("You can't select more than 20 credits!", {theme: "dark", hideProgressBar: true, autoClose: 1200,
@@ -29,7 +36,8 @@ function App() {
   return (
     <div className="py-5 md:py-7 lg:py-12 px-7 md:px-12 lg:px-16 bg-[#F3F3F3]">
       <ToastContainer transition={Slide} position="bottom-left"></ToastContainer>
-      <h1 className="text-[32px] font-bold text-[#1C1B1B] text-center mb-8">Course Registration</h1>
+
+      <h1 className="text-[35px] font-bold text-[#1C1B1B] text-center mb-8">Course Registration</h1>
 
       <div className="flex flex-col md:flex-col-reverse lg:flex-row gap-6">
         <Courses
@@ -40,6 +48,7 @@ function App() {
           <SelectedCourses
             selectedCourses={selectedCourses}
             credit={credit}
+            totalPrice={totalPrice}
           ></SelectedCourses>
         </div>
       </div>
