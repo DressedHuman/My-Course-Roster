@@ -28,7 +28,7 @@ function App() {
 
   return (
     <div className="py-5 md:py-7 lg:py-12 px-7 md:px-12 lg:px-16 bg-[#F3F3F3]">
-      <ToastContainer transition={Slide}></ToastContainer>
+      <ToastContainer transition={Slide} position="bottom-left"></ToastContainer>
       <h1 className="text-[32px] font-bold text-[#1C1B1B] text-center mb-8">Course Registration</h1>
 
       <div className="flex flex-col md:flex-col-reverse lg:flex-row gap-6">
