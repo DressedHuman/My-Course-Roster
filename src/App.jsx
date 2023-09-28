@@ -2,7 +2,7 @@ import { useState } from "react"
 import Courses from "./components/Courses/Courses"
 import SelectedCourses from "./components/SelectedCourses/SelectedCourses"
 import { ToastContainer, toast } from "react-toastify";
-import 'react-toastify/dist/ReactToastify.css'
+import 'react-toastify/dist/ReactToastify.css' 
 
 function App() {
   const [selectedCourses, setSelectedCourses] = useState([]);
@@ -18,7 +18,9 @@ function App() {
       setSelectedCourses([...selectedCourses, course]);
       handleCredit(course.credit)
     }
-    else { toast("You can't select more than 20 credits!") }
+    else{
+      toast("You can't select more than 20 credits!", {theme: "dark", hideProgressBar: true, autoClose: 1300})
+    }
   }
 
   return (
